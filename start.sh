@@ -22,3 +22,6 @@ kubectl apply -f k8s/nginx-service.yml
 kubectl wait --for=condition=Ready pod --all -n assignment3 --timeout=180s
 echo "=== All Done ==="
 kubectl get all -n assignment3
+echo ""
+echo "=== Access URL ==="
+minikube service nginx -n assignment3 --url
