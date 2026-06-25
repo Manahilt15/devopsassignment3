@@ -1,3 +1,6 @@
+# CI/CD Pipeline for DevOps Assignment 3 - Manahil Tanweer
+# Triggers on push to main branch
+# Builds and pushes Docker images to DockerHub
 name: CI/CD Pipeline
 on:
   push:
